@@ -1,0 +1,51 @@
+.open-add-button {
+  padding: 8px;
+  border-radius: 2px;
+  background: #fff;
+
+  a {
+    text-decoration: none;
+    color: #5e5d5f;
+  }
+  &:hover {
+    background: #BDBDBD;
+  }
+}
+
+.card {
+  .task-input {
+    background: #FAFAFA;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+  }
+
+  .button {
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 5px;
+
+    &:hover {
+      opacity: .85;
+      transition: 0.3s;
+    }
+
+    &.add-button {
+      background-color: #28a745;
+      border-color: #28a745;
+    }
+
+    &.cancel-button {
+      background-color: #dc3545;
+      border-color: #dc3545;
+    }
+  }
+}
